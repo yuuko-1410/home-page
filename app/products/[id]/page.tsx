@@ -160,37 +160,31 @@ export default function ProductDetailPage() {
               <div className="space-y-6">
                 <div className="flex justify-between items-center py-4 border-b border-gray-200">
                   <span className="text-gray-600">响应速度</span>
-                  <span className="font-semibold text-gray-900">&lt;10ms</span>
+                  <span className="font-semibold text-gray-900">10ms</span>
                 </div>
                 <div className="flex justify-between items-center py-4 border-b border-gray-200">
                   <span className="text-gray-600">续航时间</span>
-                  <span className="font-semibold text-gray-900">24小时</span>
+                  <span className="font-semibold text-gray-900">3天</span>
                 </div>
                 <div className="flex justify-between items-center py-4 border-b border-gray-200">
                   <span className="text-gray-600">充电时间</span>
-                  <span className="font-semibold text-gray-900">2小时</span>
+                  <span className="font-semibold text-gray-900">4H</span>
                 </div>
                 <div className="flex justify-between items-center py-4 border-b border-gray-200">
                   <span className="text-gray-600">重量</span>
-                  <span className="font-semibold text-gray-900">约 1.2 kg</span>
+                  <span className="font-semibold text-gray-900">1.7kg</span>
                 </div>
                 <div className="flex justify-between items-center py-4 border-b border-gray-200">
                   <span className="text-gray-600">防护等级</span>
                   <span className="font-semibold text-gray-900">IP67</span>
                 </div>
                 <div className="flex justify-between items-center py-4 border-b border-gray-200">
-                  <span className="text-gray-600">适配身高</span>
-                  <span className="font-semibold text-gray-900">
-                    155-190 cm
-                  </span>
-                </div>
-                <div className="flex justify-between items-center py-4 border-b border-gray-200">
                   <span className="text-gray-600">最大承重</span>
-                  <span className="font-semibold text-gray-900">120 kg</span>
+                  <span className="font-semibold text-gray-900">140kg</span>
                 </div>
                 <div className="flex justify-between items-center py-4">
                   <span className="text-gray-600">质保期</span>
-                  <span className="font-semibold text-gray-900">2年</span>
+                  <span className="font-semibold text-gray-900">三年</span>
                 </div>
               </div>
             </div>

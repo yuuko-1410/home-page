@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 import BottomNavigation from "@/components/BottomNavigation";
+import { Brain, Radar, Bone } from "lucide-react";
 
 export default function TechnologyPage() {
   return (
@@ -72,7 +73,9 @@ export default function TechnologyPage() {
           <div className="grid lg:grid-cols-3 gap-8">
             {/* Technology 1 */}
             <div className="bg-white p-8 rounded-2xl">
-              <div className="w-16 h-16 bg-blue-600 rounded-2xl mb-6" />
+              <div className="w-16 h-16 bg-blue-600 rounded-2xl mb-6 flex items-center justify-center">
+                <Brain className="w-8 h-8 text-white" />
+              </div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                 深度学习
               </h3>
@@ -97,7 +100,9 @@ export default function TechnologyPage() {
 
             {/* Technology 2 */}
             <div className="bg-white p-8 rounded-2xl">
-              <div className="w-16 h-16 bg-blue-600 rounded-2xl mb-6" />
+              <div className="w-16 h-16 bg-blue-600 rounded-2xl mb-6 flex items-center justify-center">
+                <Radar className="w-8 h-8 text-white" />
+              </div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                 多传感器融合
               </h3>
@@ -122,7 +127,9 @@ export default function TechnologyPage() {
 
             {/* Technology 3 */}
             <div className="bg-white p-8 rounded-2xl">
-              <div className="w-16 h-16 bg-blue-600 rounded-2xl mb-6" />
+              <div className="w-16 h-16 bg-blue-600 rounded-2xl mb-6 flex items-center justify-center">
+                <Bone className="w-8 h-8 text-white" />
+              </div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                 生物力学建模
               </h3>
@@ -238,21 +245,21 @@ export default function TechnologyPage() {
               <div className="space-y-6">
                 <div>
                   <div className="text-5xl font-semibold text-blue-600 mb-2">
-                    50+
-                  </div>
-                  <div className="text-gray-300">核心专利技术</div>
-                </div>
-                <div>
-                  <div className="text-5xl font-semibold text-blue-600 mb-2">
                     30+
                   </div>
-                  <div className="text-gray-300">顶尖研发人员</div>
+                  <div className="text-gray-300">科研合作</div>
                 </div>
                 <div>
                   <div className="text-5xl font-semibold text-blue-600 mb-2">
-                    5年+
+                    20+
                   </div>
-                  <div className="text-gray-300">技术积累</div>
+                  <div className="text-gray-300">研发团队</div>
+                </div>
+                <div>
+                  <div className="text-5xl font-semibold text-blue-600 mb-2">
+                    1/6
+                  </div>
+                  <div className="text-gray-300">进口价格</div>
                 </div>
               </div>
             </div>

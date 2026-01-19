@@ -63,7 +63,7 @@ export default function Header({ activePath = "/" }: HeaderProps) {
         >
           <Link href="/" className="flex items-center gap-2">
             <Image
-              src="/logo.png"
+              src="/logo_111.png"
               alt="Synrise"
               width={isScrolled ? 32 : 52}
               height={isScrolled ? 32 : 52}

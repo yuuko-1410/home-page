@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 import BottomNavigation from "@/components/BottomNavigation";
+import { Lightbulb, Heart, Shield } from "lucide-react";
 
 export default function AboutPage() {
   return (
@@ -85,30 +86,36 @@ export default function AboutPage() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-6" />
+              <div className="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-6 flex items-center justify-center">
+                <Lightbulb className="w-10 h-10 text-white" />
+              </div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                 创新
               </h3>
               <p className="text-gray-600">
-                持续技术创新，推动行业发展，用前沿科技解决实际问题。
+                持续突破技术边界，用创新解决真实问题
               </p>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-6" />
+              <div className="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-6 flex items-center justify-center">
+                <Heart className="w-10 h-10 text-white" />
+              </div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                 普惠
               </h3>
               <p className="text-gray-600">
-                让优质产品触手可及，降低成本，让更多人享受科技进步的成果。
+                让好产品触手可及，让科技惠及更多人
               </p>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-6" />
+              <div className="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-6 flex items-center justify-center">
+                <Shield className="w-10 h-10 text-white" />
+              </div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">
                 责任
               </h3>
               <p className="text-gray-600">
-                对用户负责，对产品负责，用实际行动践行企业社会责任。
+                对用户和产品负责，用行动践行社会责任
               </p>
             </div>
           </div>
@@ -158,11 +165,11 @@ export default function AboutPage() {
                     alt="五彩基金"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
-                  <img
+                  {/*<img
                     src="/images/cooperation/cdpf-logo.jpg"
                     alt="中国残联"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
-                  />
+                  />*/}
                 </div>
                 {/* Duplicate set for seamless loop */}
                 <div className="flex items-center gap-12 shrink-0">
@@ -191,11 +198,11 @@ export default function AboutPage() {
                     alt="五彩基金"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
-                  <img
+                  {/*<img
                     src="/images/cooperation/cdpf-logo.jpg"
                     alt="中国残联"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
-                  />
+                  />*/}
                 </div>
               </div>
             </div>
