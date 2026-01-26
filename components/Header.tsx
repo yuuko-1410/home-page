@@ -83,8 +83,8 @@ export default function Header({ activePath = "/" }: HeaderProps) {
                 href={item.href}
                 className={`transition-all duration-300 ${
                   activePath === item.href
-                    ? "text-blue-600 font-semibold"
-                    : "text-gray-600 hover:text-blue-600"
+                    ? "text-[#FD5202] font-semibold"
+                    : "text-gray-600 hover:text-[#FD5202]"
                 } ${isScrolled ? "text-xs" : "text-base"}`}
               >
                 {item.label}
@@ -95,7 +95,7 @@ export default function Header({ activePath = "/" }: HeaderProps) {
             <div className="relative" ref={langDropdownRef}>
               <button
                 onClick={() => setIsLangOpen(!isLangOpen)}
-                className={`flex items-center gap-1 text-gray-600 hover:text-blue-600 transition-all duration-300 ${
+                className={`flex items-center gap-1 text-gray-600 hover:text-[#FD5202] transition-all duration-300 ${
                   isScrolled ? "text-xs" : "text-base"
                 }`}
               >
@@ -120,7 +120,7 @@ export default function Header({ activePath = "/" }: HeaderProps) {
             </div>
             <Link
               href="/contact"
-              className={`bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-all duration-300 inline-block ${
+              className={`bg-[#FD5202] text-white font-medium rounded-full hover:bg-[#e04802] transition-all duration-300 inline-block ${
                 isScrolled ? "px-3 py-1 text-xs" : "px-4 py-1.5 text-base"
               }`}
             >

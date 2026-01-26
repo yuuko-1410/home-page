@@ -12,7 +12,7 @@ export default function AboutPage() {
       <Header activePath="/about" />
 
       {/* Hero Section */}
-      <section className="relative py-32 bg-black text-white overflow-hidden">
+      <section className="relative py-32 bg-[#19166C] text-white overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
@@ -51,22 +51,22 @@ export default function AboutPage() {
       </section>
 
       {/* Mission & Vision */}
-      <section className="py-24 bg-gray-50">
+      <section className="py-24 bg-gradient-to-b from-gray-50 to-blue-50/50">
         <div className="container mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
             <div className="bg-white p-12 rounded-2xl">
-              <h3 className="text-3xl font-semibold text-gray-900 mb-6">
+              <h3 className="text-3xl font-semibold text-[#FD5202] mb-6">
                 使命
               </h3>
-              <p className="text-xl text-gray-600 leading-relaxed mb-6">
+              {/*<p className="text-xl text-gray-600 leading-relaxed mb-6">
                 以科技唤醒本能，让行走回归自然
-              </p>
+              </p>*/}
               <p className="text-xl text-gray-600 leading-relaxed">
                 以科技之力，重塑行动自由
               </p>
             </div>
             <div className="bg-white p-12 rounded-2xl">
-              <h3 className="text-3xl font-semibold text-gray-900 mb-6">
+              <h3 className="text-3xl font-semibold text-[#FD5202] mb-6">
                 愿景
               </h3>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
@@ -78,15 +78,15 @@ export default function AboutPage() {
       </section>
 
       {/* Core Values */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-gradient-to-b from-white to-blue-50/30">
         <div className="container mx-auto px-6 lg:px-8">
-          <h2 className="text-4xl lg:text-5xl font-semibold text-gray-900 mb-16 text-center">
+          <h2 className="text-4xl lg:text-5xl font-semibold text-[#FD5202] mb-16 text-center">
             核心价值观
           </h2>
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-6 flex items-center justify-center">
+              <div className="w-20 h-20 bg-[#19166C] rounded-2xl mx-auto mb-6 flex items-center justify-center">
                 <Lightbulb className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">
@@ -97,7 +97,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-6 flex items-center justify-center">
+              <div className="w-20 h-20 bg-[#19166C] rounded-2xl mx-auto mb-6 flex items-center justify-center">
                 <Heart className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">
@@ -108,7 +108,7 @@ export default function AboutPage() {
               </p>
             </div>
             <div className="text-center">
-              <div className="w-20 h-20 bg-blue-600 rounded-2xl mx-auto mb-6 flex items-center justify-center">
+              <div className="w-20 h-20 bg-[#19166C] rounded-2xl mx-auto mb-6 flex items-center justify-center">
                 <Shield className="w-10 h-10 text-white" />
               </div>
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">
@@ -123,10 +123,10 @@ export default function AboutPage() {
       </section>
 
       {/* Social Responsibility */}
-      <section className="py-24 bg-gray-50">
+      <section className="py-24 bg-gradient-to-b from-gray-50 to-blue-50/30">
         <div className="container mx-auto px-6 lg:px-8">
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-4xl lg:text-5xl font-semibold text-gray-900 mb-12 text-center">
+            <h2 className="text-4xl lg:text-5xl font-semibold text-[#FD5202] mb-12 text-center">
               社会责任
             </h2>
             <div className="bg-white p-12 rounded-2xl shadow-sm mb-12">
@@ -213,13 +213,15 @@ export default function AboutPage() {
       {/* CTA Section */}
       <section className="py-24 bg-black text-white">
         <div className="container mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl lg:text-5xl font-semibold mb-6">加入我们</h2>
+          <h2 className="text-4xl lg:text-5xl font-semibold mb-6 text-white">
+            加入我们
+          </h2>
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
             如果您也热爱科技，期待用技术改变世界，欢迎加入我们
           </p>
           <Link
             href="/contact"
-            className="px-8 py-4 bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-all hover:scale-105 inline-block"
+            className="px-8 py-4 bg-[#FD5202] text-white font-medium rounded-full hover:bg-[#e04802] transition-all hover:scale-105 inline-block"
           >
             联系我们
           </Link>

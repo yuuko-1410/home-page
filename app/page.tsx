@@ -13,7 +13,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="relative h-screen bg-black flex items-center justify-center overflow-hidden pt-20">
         {/* Video Background */}
-        <video
+        {/*<video
           autoPlay
           loop
           muted
@@ -24,7 +24,15 @@ export default function Home() {
             src="https://website-image.brainco.cn/video/2AB431c65bhdriQN.webm"
             type="video/webm"
           />
-        </video>
+        </video>*/}
+        {/* Image Background */}
+        <Image
+          src="/images/publicity/h8tAFk.webp"
+          alt="森越成行"
+          fill
+          className="object-cover"
+          priority
+        />
         {/* Overlay */}
         <div className="absolute inset-0 bg-black/40" />
 
@@ -37,13 +45,13 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/products/smart-knee"
-              className="px-8 py-4 bg-blue-600 text-white font-medium rounded-full hover:bg-blue-700 transition-all hover:scale-105 inline-block"
+              className="px-8 py-4 bg-[#FD5202] text-white font-medium rounded-full hover:bg-[#e04802] transition-all hover:scale-105 inline-block"
             >
               了解产品
             </Link>
             <Link
               href="/about"
-              className="px-8 py-4 text-white font-medium rounded-full border-2 border-white hover:bg-white hover:text-gray-900 transition-all hover:scale-105 inline-block"
+              className="px-8 py-4 text-white font-medium rounded-full border-2 border-white hover:bg-white hover:text-[#19166C] transition-all hover:scale-105 inline-block"
             >
               关于我们
             </Link>
@@ -52,10 +60,10 @@ export default function Home() {
       </section>
 
       {/* Company Introduction */}
-      <section className="py-24 bg-white">
+      <section className="py-24 bg-gradient-to-b from-white to-blue-50/30">
         <div className="container mx-auto px-6 lg:px-8">
           <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-4xl lg:text-5xl font-semibold text-gray-900 mb-6">
+            <h2 className="text-4xl lg:text-5xl font-semibold text-[#FD5202] mb-6">
               关于森越成行
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
@@ -68,23 +76,17 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-8">
-              <div className="text-5xl font-semibold text-[#fd5202] mb-4">
-                30+
-              </div>
+              <div className="text-5xl font-semibold text-black mb-4">30+</div>
               <div className="text-lg text-gray-900 mb-2">科研合作</div>
               <div className="text-sm text-gray-600">自主研发核心技术</div>
             </div>
             <div className="text-center p-8">
-              <div className="text-5xl font-semibold text-[#fd5202] mb-4">
-                20+
-              </div>
+              <div className="text-5xl font-semibold text-black mb-4">20+</div>
               <div className="text-lg text-gray-900 mb-2">研发团队</div>
               <div className="text-sm text-gray-600">清华姚班精英团队</div>
             </div>
             <div className="text-center p-8">
-              <div className="text-5xl font-semibold text-[#fd5202] mb-4">
-                1/6
-              </div>
+              <div className="text-5xl font-semibold text-black mb-4">1/6</div>
               <div className="text-lg text-gray-900 mb-2">进口价格</div>
               <div className="text-sm text-gray-600">让科技触手可及</div>
             </div>
@@ -97,18 +99,18 @@ export default function Home() {
         <div className="container mx-auto px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h3 className="text-3xl font-semibold text-gray-900 mb-6">
+              <h3 className="text-3xl font-semibold text-[#FD5202] mb-6">
                 使命
               </h3>
-              <p className="text-lg text-gray-600 leading-relaxed mb-6">
+              {/*<p className="text-lg text-gray-600 leading-relaxed mb-6">
                 以科技唤醒本能，让行走回归自然
-              </p>
+              </p>*/}
               <p className="text-lg text-gray-600 leading-relaxed">
                 以科技之力，重塑行动自由
               </p>
             </div>
             <div>
-              <h3 className="text-3xl font-semibold text-gray-900 mb-6">
+              <h3 className="text-3xl font-semibold text-[#FD5202] mb-6">
                 愿景
               </h3>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
@@ -120,9 +122,9 @@ export default function Home() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-24 bg-[#19166c] text-white">
+      <section className="py-24 bg-black text-white">
         <div className="container mx-auto px-6 lg:px-8 text-center">
-          <h2 className="text-4xl lg:text-5xl font-semibold mb-6">
+          <h2 className="text-4xl lg:text-5xl font-semibold mb-6 text-white">
             了解更多？
           </h2>
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto">
@@ -137,7 +139,7 @@ export default function Home() {
             </Link>
             <Link
               href="/technology"
-              className="px-8 py-4 text-white font-medium rounded-full border-2 border-white hover:bg-white hover:text-gray-900 transition-all hover:scale-105 inline-block"
+              className="px-8 py-4 text-white font-medium rounded-full border-2 border-white hover:bg-white hover:text-[#19166C] transition-all hover:scale-105 inline-block"
             >
               了解技术
             </Link>

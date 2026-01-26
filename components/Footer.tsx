@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 py-12 border-t border-gray-200">
+    <footer className="bg-white py-12 border-t border-gray-200">
       <div className="container mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           <div>
@@ -11,9 +11,9 @@ export default function Footer() {
               <li>
                 <Link
                   href="/products/smart-knee"
-                  className="hover:text-blue-600 transition-colors"
+                  className="hover:text-[#19166C] transition-colors"
                 >
-                  Synrise S5
+                  森越® 仿生液压智能膝关节
                 </Link>
               </li>
             </ul>
@@ -24,7 +24,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/about"
-                  className="hover:text-blue-600 transition-colors"
+                  className="hover:text-[#19166C] transition-colors"
                 >
                   关于我们
                 </Link>
@@ -32,7 +32,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/contact"
-                  className="hover:text-blue-600 transition-colors"
+                  className="hover:text-[#19166C] transition-colors"
                 >
                   加入我们
                 </Link>
@@ -45,7 +45,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/technology"
-                  className="hover:text-blue-600 transition-colors"
+                  className="hover:text-[#19166C] transition-colors"
                 >
                   SynchroMind™
                 </Link>
@@ -53,7 +53,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/contact"
-                  className="hover:text-blue-600 transition-colors"
+                  className="hover:text-[#19166C] transition-colors"
                 >
                   科研合作
                 </Link>
@@ -63,14 +63,14 @@ export default function Footer() {
           <div>
             <h4 className="text-sm font-semibold mb-4 text-gray-900">联络</h4>
             <ul className="space-y-2 text-xs text-gray-600">
-              <li>contact@synrise.com</li>
-              <li>400-888-8888</li>
-              <li>四川省成都市</li>
+              <li>synrise_tech@163.com</li>
+              {/*<li>400-888-8888</li>*/}
+              <li>四川省成都市高新区合顺路2号2栋1单元22楼07号</li>
             </ul>
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-gray-200 text-center text-xs text-gray-600">
-          <p>© 2025 Synrise 森越成行. 保留所有权利.</p>
+          <p>© 2025 Synrise 森越成行. 保留所有权利. 蜀ICP备2025174766号-1</p>
         </div>
       </div>
     </footer>
