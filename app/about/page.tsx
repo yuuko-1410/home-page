@@ -5,6 +5,12 @@ import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 import BottomNavigation from "@/components/BottomNavigation";
 import { Lightbulb, Heart, Shield } from "lucide-react";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "关于我们",
+  description: "森越成行成立于2025年，是国内领先的具身智能义肢研发企业。团队汇聚清华姚班等海内外顶尖高校技术骨干，为肢体残障人士提供更自然、更智能的行动解决方案。",
+};
 
 export default function AboutPage() {
   return (
@@ -141,32 +147,32 @@ export default function AboutPage() {
                 {/* First set of logos */}
                 <div className="flex items-center gap-12 shrink-0">
                   <img
-                    src="/images/cooperation/chengdu-next-gen-foundation.jpg"
+                    src="/images/cooperation/chengdu-next-gen-foundation.webp"
                     alt="成都市关心下一代基金会"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
                   <img
-                    src="/images/cooperation/chenxing-home.jpg"
+                    src="/images/cooperation/chenxing-home.webp"
                     alt="晨星之家"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
                   <img
-                    src="/images/cooperation/tech-for-good.jpg"
+                    src="/images/cooperation/tech-for-good.webp"
                     alt="科技向善"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
                   <img
-                    src="/images/cooperation/tencent-charity.jpg"
+                    src="/images/cooperation/tencent-charity.webp"
                     alt="腾讯公益"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
                   <img
-                    src="/images/cooperation/wucai-foundation.jpg"
+                    src="/images/cooperation/wucai-foundation.webp"
                     alt="五彩基金"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
                   {/*<img
-                    src="/images/cooperation/cdpf-logo.jpg"
+                    src="/images/cooperation/cdpf-logo.webp"
                     alt="中国残联"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />*/}
@@ -174,32 +180,32 @@ export default function AboutPage() {
                 {/* Duplicate set for seamless loop */}
                 <div className="flex items-center gap-12 shrink-0">
                   <img
-                    src="/images/cooperation/chengdu-next-gen-foundation.jpg"
+                    src="/images/cooperation/chengdu-next-gen-foundation.webp"
                     alt="成都市关心下一代基金会"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
                   <img
-                    src="/images/cooperation/chenxing-home.jpg"
+                    src="/images/cooperation/chenxing-home.webp"
                     alt="晨星之家"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
                   <img
-                    src="/images/cooperation/tech-for-good.jpg"
+                    src="/images/cooperation/tech-for-good.webp"
                     alt="科技向善"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
                   <img
-                    src="/images/cooperation/tencent-charity.jpg"
+                    src="/images/cooperation/tencent-charity.webp"
                     alt="腾讯公益"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
                   <img
-                    src="/images/cooperation/wucai-foundation.jpg"
+                    src="/images/cooperation/wucai-foundation.webp"
                     alt="五彩基金"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
                   {/*<img
-                    src="/images/cooperation/cdpf-logo.jpg"
+                    src="/images/cooperation/cdpf-logo.webp"
                     alt="中国残联"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />*/}

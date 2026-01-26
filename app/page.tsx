@@ -4,6 +4,12 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 import BottomNavigation from "@/components/BottomNavigation";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "首页",
+  description: "Synrise 森越成行 - 具身智能义肢研发企业。Synrise Pro 智能大腿义肢，搭载 SynchroMind™ 协同智能算法，50+核心专利，清华姚班团队，价格为进口1/6。",
+};
 
 export default function Home() {
   return (

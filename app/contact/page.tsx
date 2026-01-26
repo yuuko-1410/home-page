@@ -4,6 +4,13 @@ import ScrollToTop from "@/components/ScrollToTop";
 import BottomNavigation from "@/components/BottomNavigation";
 import { Mail, Phone, MessageCircle } from "lucide-react";
 import Image from "next/image";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "联系我们",
+  description:
+    "联系Synrise森越成行。电子邮箱：synrise_tech@163.com。我们提供专业的产品咨询服务，24小时内回复您的邮件。欢迎通过微信公众号与我们联系。",
+};
 
 export default function ContactPage() {
   return (
@@ -41,7 +48,12 @@ export default function ContactPage() {
                 <h3 className="text-xl font-semibold text-gray-900 mb-3">
                   电子邮箱
                 </h3>
-                <p className="text-gray-600 mb-2">synrise_tech@163.com</p>
+                <a
+                  href="mailto:synrise_tech@163.com"
+                  className="text-gray-600 mb-2 hover:text-[#19166C] hover:underline transition-colors inline-block"
+                >
+                  synrise_tech@163.com
+                </a>
                 <p className="text-sm text-gray-500">
                   我们会在 24 小时内回复您的邮件
                 </p>

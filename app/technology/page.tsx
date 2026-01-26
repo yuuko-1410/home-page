@@ -4,6 +4,12 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 import BottomNavigation from "@/components/BottomNavigation";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "技术优势",
+  description: "Synrise森越成行核心技术 - SynchroMind™协同智能算法。融合多元传感器数据，精准识别用户运动意图并实时预测动作，<10ms响应，99%识别准确率，实现身随心驭。",
+};
 
 export default function TechnologyPage() {
   return (
