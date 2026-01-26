@@ -238,7 +238,7 @@ export default function ProductDetail() {
                 <Smartphone className="w-10 h-10 text-white" />
               </div>
               <h2 className="text-4xl lg:text-5xl font-semibold text-[#FD5202] mb-4">
-                配套APP
+                Synrise App
               </h2>
               <p className="text-lg text-gray-600">
                 Synrise App 是智能假肢的官方配套应用，通过蓝牙连接实现智能管理

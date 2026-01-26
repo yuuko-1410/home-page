@@ -13,10 +13,10 @@ export default function DownloadPage() {
   const carouselRef = useRef<HTMLDivElement>(null);
 
   const screenshots = [
-    "/download-assets/screenshot/首页.webp",
-    "/download-assets/screenshot/参数设置.webp",
-    "/download-assets/screenshot/调试.webp",
-    "/download-assets/screenshot/固件升级.webp",
+    "/app/screenshot/home.webp",
+    "/app/screenshot/settings.webp",
+    "/app/screenshot/debug.webp",
+    "/app/screenshot/firmware-update.webp",
   ];
 
   useEffect(() => {
@@ -89,7 +89,7 @@ export default function DownloadPage() {
             <div className="app-icon-wrapper">
               <div className="app-icon">
                 <Image
-                  src="/download-assets/icon.webp"
+                  src="/app/app-icon.webp"
                   alt="Synrise App"
                   width={160}
                   height={160}
