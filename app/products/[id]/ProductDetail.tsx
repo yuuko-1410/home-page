@@ -48,7 +48,8 @@ export default function ProductDetail() {
               森越® 仿生液压智能膝关节
             </h1>
             <p className="text-xl text-gray-300 mb-8">
-              以 SynchroMind™协同智能算法为核心，深度融合人工智能与生物力学，实现步态实时学习与动态自适应调节；采用微处理器控制与液压系统一体化设计，提供高精度控制与响应能力。
+              以
+              SynchroMind™协同智能算法为核心，深度融合人工智能与生物力学，实现步态实时学习与动态自适应调节；采用微处理器控制与液压系统一体化设计，提供高精度控制与响应能力。
             </p>
             <div className="flex gap-6 text-sm">
               <div className="flex items-center gap-2">
@@ -80,7 +81,7 @@ export default function ProductDetail() {
                 </div>
                 <div className="bg-gray-50 p-6 rounded-2xl hover:shadow-lg hover:shadow-blue-200/50 transition-all duration-300">
                   <div className="text-sm text-gray-600 mb-2">产品重量</div>
-                  <div className="text-3xl font-bold text-black">1.68kg</div>
+                  <div className="text-3xl font-bold text-black">1.75kg</div>
                 </div>
                 <div className="bg-gray-50 p-6 rounded-2xl hover:shadow-lg hover:shadow-blue-200/50 transition-all duration-300">
                   <div className="text-sm text-gray-600 mb-2">最大弯曲角度</div>
@@ -170,7 +171,7 @@ export default function ProductDetail() {
                 轻量节能
               </h3>
               <p className="text-gray-600">
-                仅重 1.68kg，功耗优化，续航持久（2-3 天）。
+                仅重 1.75kg，功耗优化，续航持久（2-3 天）。
               </p>
             </div>
 
@@ -221,9 +222,7 @@ export default function ProductDetail() {
               <h3 className="text-xl font-semibold text-gray-900 mb-3">
                 其他特性
               </h3>
-              <p className="text-gray-600">
-                防水等级 IP67，结构高度 260mm。
-              </p>
+              <p className="text-gray-600">防水等级 IP67，结构高度 260mm。</p>
             </div>
           </div>
         </div>
