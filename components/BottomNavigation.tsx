@@ -15,7 +15,7 @@ export default function BottomNavigation({
 
   const navItems = [
     { href: "/", label: "首页", icon: Home },
-    { href: "/products", label: "产品", icon: Box },
+    { href: "/products/smart-knee", label: "产品", icon: Box },
     { href: "/technology", label: "技术", icon: Wrench },
     { href: "/about", label: "我们", icon: Users },
     { href: "/contact", label: "联系", icon: Mail },

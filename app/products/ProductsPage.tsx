@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
@@ -33,7 +34,7 @@ export default function ProductsPage() {
         comingSoon: true,
       },
     ],
-    []
+    [],
   );
 
   useEffect(() => {
@@ -67,8 +68,21 @@ export default function ProductsPage() {
       <Header activePath="/products" />
 
       {/* Hero Section */}
-      <section className="py-20 bg-black text-white pt-32">
-        <div className="container mx-auto px-6 lg:px-8">
+      <section className="relative h-[500px] bg-[#19166C] text-white overflow-hidden flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/publicity/XkK4mQ.webp"
+            alt="产品背景"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-linear-to-b from-black/50 via-black/60 to-black/75" />
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 container mx-auto px-6 lg:px-8">
           <div className="max-w-4xl">
             <h1 className="text-5xl lg:text-6xl font-semibold mb-6">
               产品系列

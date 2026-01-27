@@ -8,7 +8,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "技术优势",
-  description: "Synrise森越成行核心技术 - SynchroMind™协同智能算法。融合多元传感器数据，精准识别用户运动意图并实时预测动作，<10ms响应，99%识别准确率，实现身随心驭。",
+  description:
+    "Synrise森越成行核心技术 - SynchroMind™协同智能算法。融合多元传感器数据，精准识别用户运动意图并实时预测动作，<10ms响应，99%识别准确率，实现身随心驭。",
 };
 
 export default function TechnologyPage() {
@@ -17,8 +18,21 @@ export default function TechnologyPage() {
       <Header activePath="/technology" />
 
       {/* Hero Section */}
-      <section className="py-20 bg-[#19166C] text-white pt-32">
-        <div className="container mx-auto px-6 lg:px-8">
+      <section className="relative h-[500px] bg-[#19166C] text-white overflow-hidden flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0">
+          <Image
+            src="/images/publicity/XkK4mQ.webp"
+            alt="技术背景"
+            fill
+            className="object-cover"
+            priority
+          />
+          <div className="absolute inset-0 bg-linear-to-b from-black/50 via-black/60 to-black/75" />
+        </div>
+
+        {/* Content */}
+        <div className="relative z-10 container mx-auto px-6 lg:px-8">
           <div className="max-w-4xl">
             <h1 className="text-5xl lg:text-6xl font-semibold mb-6">
               SynchroMind™ 协同智能算法
@@ -30,30 +44,6 @@ export default function TechnologyPage() {
         </div>
       </section>
 
-      {/* Algorithm Introduction */}
-      <section className="py-24 bg-gradient-to-b from-white to-blue-50/30">
-        <div className="container mx-auto px-6 lg:px-8">
-          <div className="grid lg:grid-cols-2 gap-16 items-center">
-            <div>
-              <h2 className="text-4xl lg:text-5xl font-semibold text-[#FD5202] mb-6">
-                SynchroMind™ AI核心算法
-              </h2>
-              <p className="text-lg text-gray-600 leading-relaxed">
-                融合多元传感器数据，精准识别用户运动意图并实时预测动作，实现"身随心驭"。
-              </p>
-            </div>
-            <div className="relative aspect-square bg-linear-to-br from-gray-100 to-gray-200 rounded-3xl overflow-hidden">
-              <Image
-                src="/images/publicity/IW23yV.webp"
-                alt="SynchroMind算法示意图"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Three-Layer Architecture */}
       <section className="py-24 bg-gray-50">
         <div className="container mx-auto px-6 lg:px-8">
@@ -61,7 +51,8 @@ export default function TechnologyPage() {
             三层技术架构
           </h2>
 
-          <div className="max-w-4xl mx-auto">
+          <div className="grid lg:grid-cols-2 gap-16 items-start">
+            {/* Left: Three Layers */}
             <div className="bg-white rounded-2xl overflow-hidden">
               {/* 感知层 */}
               <div className="p-8 border-b border-gray-200">
@@ -113,6 +104,16 @@ export default function TechnologyPage() {
                   </div>
                 </div>
               </div>
+            </div>
+
+            {/* Right: Image */}
+            <div className="relative aspect-square bg-linear-to-br from-gray-100 to-gray-200 rounded-3xl overflow-hidden">
+              <Image
+                src="/images/publicity/IW23yV.webp"
+                alt="SynchroMind算法示意图"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>

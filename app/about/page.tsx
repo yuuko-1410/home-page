@@ -18,7 +18,7 @@ export default function AboutPage() {
       <Header activePath="/about" />
 
       {/* Hero Section */}
-      <section className="relative py-32 bg-[#19166C] text-white overflow-hidden">
+      <section className="relative h-[500px] bg-[#19166C] text-white overflow-hidden flex items-center">
         {/* Background Image */}
         <div className="absolute inset-0">
           <Image
