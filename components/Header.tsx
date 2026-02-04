@@ -46,6 +46,7 @@ export default function Header({ activePath = "/" }: HeaderProps) {
     { href: "/", label: "首页" },
     { href: "/products/smart-knee", label: "产品" },
     { href: "/technology", label: "技术" },
+    { href: "/news", label: "新闻" },
     { href: "/about", label: "我们" },
   ];
 

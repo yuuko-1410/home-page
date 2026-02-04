@@ -8,7 +8,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "首页",
-  description: "Synrise 森越成行 - 具身智能义肢研发企业。Synrise Pro 智能大腿义肢，搭载 SynchroMind™ 协同智能算法，50+核心专利，清华姚班团队，价格为进口1/6。",
+  description:
+    "Synrise 森越成行 - 具身智能义肢研发企业。Synrise Pro 智能大腿义肢，搭载 SynchroMind™ 协同智能算法，50+核心专利，清华姚班团队，价格为进口1/6。",
 };
 
 export default function Home() {
@@ -73,10 +74,9 @@ export default function Home() {
               关于森越成行
             </h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              森越成行成立于2025年，是国内领先的具身智能义肢研发企业。
+              森越成行是一家具身智能企业，以感知、决策与执行的深度融合为核心，
               <br />
-              我们致力于通过
-              AI与生物力学的深度融合，为肢体残障人士提供更自然、更智能的行动解决方案。
+              致力于帮助全球运动受限人群重新定义运动边界。
             </p>
           </div>
 
@@ -120,7 +120,7 @@ export default function Home() {
                 愿景
               </h3>
               <p className="text-lg text-gray-600 leading-relaxed mb-6">
-                以技术重构康复生态，成为全球智能康复领域引导者
+                让运动自由，触手可及
               </p>
             </div>
           </div>

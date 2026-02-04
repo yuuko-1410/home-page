@@ -9,7 +9,8 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "关于我们",
-  description: "森越成行成立于2025年，是国内领先的具身智能义肢研发企业。团队汇聚清华姚班等海内外顶尖高校技术骨干，为肢体残障人士提供更自然、更智能的行动解决方案。",
+  description:
+    "森越成行(Synrise Technology)是一家具身智能企业，致力于通过感知、决策与执行的深度融合，帮助全球运动受限人群重新定义运动的边界。",
 };
 
 export default function AboutPage() {
@@ -43,14 +44,9 @@ export default function AboutPage() {
           </div>
 
           <div className="max-w-3xl">
-            <p className="text-lg text-gray-100 mb-6 leading-relaxed">
-              森越成行，聚焦智能康复科技前沿，依托自研SynchroMind™协同智能算法，深度耦合生物力学与智能感知技术，实现康复辅具步态实时感知、动态自适应适配，为肢残群体提供更贴合生理习性的精准行走康复方案。
-            </p>
             <p className="text-lg text-gray-100 leading-relaxed">
-              团队汇聚清华姚班等海内外顶尖高校技术研发骨干，以及 ISPO
-              认证矫形师、国际假肢企业前技术总监等行业资深专家，构建
-              &quot;技术攻坚 - 医学适配 - 战略落地&quot;
-              全链条支撑体系，兼具前沿技术视野与成熟产业实践能力。
+              森越成行(Synrise
+              Technology)是一家具身智能企业，致力于通过感知、决策与执行的深度融合，帮助全球运动受限人群重新定义运动的边界。公司自研的SynchroMind™协同算法，能够实时理解用户意图并自主完成复杂的运动协同，让智能设备真正成为身体的一部分。核心团队由清华大学"姚班"等全球顶尖学府的算法精英，以及国际假肢巨头前技术总监、ISPO认证矫形师等产业领军人物组成，兼具前沿科研深度与产业落地经验。以智能膝关节为起点，森越成行正逐步构建服务全球运动受限人群的人机协同生态。
             </p>
           </div>
         </div>
@@ -76,7 +72,7 @@ export default function AboutPage() {
                 愿景
               </h3>
               <p className="text-xl text-gray-600 leading-relaxed mb-6">
-                以技术重构康复生态，成为全球智能康复领域引导者
+                让运动自由，触手可及
               </p>
             </div>
           </div>

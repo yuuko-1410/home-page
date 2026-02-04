@@ -1,6 +1,6 @@
 "use client";
 
-import { Home, Box, Wrench, Users, Mail } from "lucide-react";
+import { Home, Box, Wrench, Newspaper, Users, Mail } from "lucide-react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -17,6 +17,7 @@ export default function BottomNavigation({
     { href: "/", label: "首页", icon: Home },
     { href: "/products/smart-knee", label: "产品", icon: Box },
     { href: "/technology", label: "技术", icon: Wrench },
+    { href: "/news", label: "新闻", icon: Newspaper },
     { href: "/about", label: "我们", icon: Users },
     { href: "/contact", label: "联系", icon: Mail },
   ];
