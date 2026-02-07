@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { Linkedin, Instagram, X } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -69,8 +70,44 @@ export default function Footer() {
             </ul>
           </div>
         </div>
-        <div className="mt-12 pt-8 border-t border-gray-200 text-center text-xs text-gray-600">
-          <p>© 2025 Synrise 森越成行. 保留所有权利. 蜀ICP备2025174766号-1</p>
+        <div className="mt-12 pt-8 border-t border-gray-200">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-4">
+            <div className="flex items-center gap-6">
+              <span className="text-xs text-gray-600">社交媒体</span>
+              <div className="flex items-center gap-4">
+                <a
+                  href="https://www.linkedin.com/company/synrisetechnology"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-[#19166C] transition-colors"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="w-5 h-5" />
+                </a>
+                <a
+                  href="https://www.instagram.com/synrise_technology/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-[#19166C] transition-colors"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="w-5 h-5" />
+                </a>
+                <a
+                  href="https://x.com/Synrise_Tech"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-600 hover:text-[#19166C] transition-colors"
+                  aria-label="X"
+                >
+                  <X className="w-5 h-5" />
+                </a>
+              </div>
+            </div>
+            <p className="text-xs text-gray-600">
+              © 2025 Synrise 森越成行. 保留所有权利. 蜀ICP备2025174766号-1
+            </p>
+          </div>
         </div>
       </div>
     </footer>
