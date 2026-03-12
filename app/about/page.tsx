@@ -167,6 +167,11 @@ export default function AboutPage() {
                     alt="五彩基金"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
+                  <img
+                    src="/images/cooperation/ispo.webp"
+                    alt="ISPO"
+                    className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
+                  />
                   {/*<img
                     src="/images/cooperation/cdpf-logo.webp"
                     alt="中国残联"
@@ -198,6 +203,11 @@ export default function AboutPage() {
                   <img
                     src="/images/cooperation/wucai-foundation.webp"
                     alt="五彩基金"
+                    className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
+                  />
+                  <img
+                    src="/images/cooperation/ispo.webp"
+                    alt="ISPO"
                     className="h-20 object-contain opacity-60 hover:opacity-100 transition-opacity"
                   />
                   {/*<img
